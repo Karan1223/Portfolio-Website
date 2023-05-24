@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import RedditS4 from '../public/assets/Projects/RedditS4.png'
 import BigData from '../public/assets/Projects/BigData.png'
-import CustomerMS from '../public/assets/Projects/CMS.png'
+import CustomerMS from '../public/assets/Projects/CMS.jpg'
 import EzRecipe from '../public/assets/Projects/EzRecipe.png'
 import Java from '../public/assets/Projects/JavaStaffMS.png'
 import Node from '../public/assets/Projects/NodeProject.png'
@@ -23,15 +23,15 @@ const Projects = () => {
             <h2 className='py-4'>What I've Built</h2>
             <div className='grid md:grid-cols-2 gap-8'>
             <ProjectItems 
-            title="NodeJs App to manipulate ShipWreck Data." 
+            title="NodeJs App." 
             img={Node} url="https://silly-teal-elk.cyclic.app/api/profile/Step3data"
             description="NodeJS Express Mongo" 
             />
             
 
             <ProjectItems 
-            title="Reddit Search using Pushshift API" img={RedditS4} url="https://github.com/Karan1223/Reddit-Search-"
-            description="HTML, CSS, JavaScript, Bootstrap, XML, XSLT, JQuery, AJAX, Pushshift API."    
+            title="Reddit Search." img={RedditS4} url="https://github.com/Karan1223/Reddit-Search-"
+            description="HTML, CSS, JS, Bootstrap, XML, XSLT, JQuery, AJAX, Pushshift API."    
             />
             
             <ProjectItems 
@@ -50,7 +50,7 @@ const Projects = () => {
             />
 
             <ProjectItems 
-            title="Higher Study prediction model.(Machine Learning)" img={ML} 
+            title="Higher Study prediction model." img={ML} 
             url="https://github.com/Karan1223/ML-HighSchoolPrediction-Model"
             description="Python, Matplotlib, Seaborn, Pandas, Numpy, Scikit-Learn."
             />
