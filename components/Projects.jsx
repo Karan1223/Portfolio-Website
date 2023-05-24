@@ -1,5 +1,4 @@
 import React from 'react'
-import Image from 'next/image'
 import RedditS4 from '../public/assets/Projects/RedditS4.png'
 import BigData from '../public/assets/Projects/BigData.png'
 import CustomerMS from '../public/assets/Projects/CMS.jpg'
@@ -59,15 +58,15 @@ const Projects = () => {
             title="Staff Management System." img={Java} url="https://github.com/Karan1223/JDBC-CRUD-Projects"
             description="Core Java, JDBC, Java Swing, Java Awt, Oracle RDBMS."    
             />
-            
-            <ProjectItems 
-            title="Customer Management System." img={CustomerMS} url="https://github.com/Karan1223/Customer-Management-System-CSharp"
-             description="C#, SQL Server, .NET."   
-            />
              
             <ProjectItems 
             title="EzRecipe" img={EzRecipe} url="https://github.com/Karan1223/Ez-Recipe"
             description="SWIFT, Core Data. IOS Mobile App."   
+            />
+
+            <ProjectItems 
+            title="Customer Management System." img={CustomerMS} url="https://github.com/Karan1223/Customer-Management-System-CSharp"
+             description="C#, SQL Server, .NET."   
             />
             </div>
         </div>
