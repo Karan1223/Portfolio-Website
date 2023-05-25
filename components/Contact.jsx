@@ -72,7 +72,7 @@ const Contact = () => {
     };
   return (
     <div id='contact' className='w-full p-20 pl-[55px]'>
-        <div classname='max-w-[1240px] m-auto px-2 py-16'>
+        <div className='max-w-[1240px] m-auto px-2 py-16'>
             <p className='text-xl tracking-widest uppercase text-[#5651e5]'>Contact</p>
             <h2 className='py-4'>Get in touch.</h2>
             <div className='grid lg:grid-cols-5 gap-8'>
@@ -131,7 +131,7 @@ const Contact = () => {
                     <div className='grid md:grid-cols-2 gap-4 w-full py-2'>
                         <div className='flex flex-col'>
                             <label className='uppercase text-sm py-2'>Name</label>
-                            <input className='border-2 rounded-lg p-3 flex border-gray-300' type="text" name="name"/>
+                            <input className='border-2 rounded-lg p-3 flex border-gray-300' type="text" name="name" />
                             {errors.name && <span className="text-red-500">{errors.name}</span>}
                         </div>
 
