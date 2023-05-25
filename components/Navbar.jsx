@@ -34,19 +34,19 @@ const Navbar = () => {
       <Image src={navLogo} alt="Logo" width='60' height='50'/>
       <div>
         <ul className='hidden md:flex'>
-          <Link href='/#home' scroll={false}>
+          <Link aria-label='Home Page' href='/#home' scroll={false}>
             <li className='ml-10 text-sm uppercase hove:border-b'>Home</li>
           </Link>
-          <Link href='/#about' scroll={false}>
+          <Link aria-label='About Page' href='/#about' scroll={false}>
             <li className='ml-10 text-sm uppercase hove:border-b'>About</li>
           </Link>  
-          <Link href='/#skills' scroll={false}>
+          <Link aria-label='Skills Page' href='/#skills' scroll={false}>
             <li className='ml-10 text-sm uppercase hove:border-b'>Skills</li>
           </Link>  
-          <Link href='/#projects' scroll={false}>
+          <Link aria-label='Projects Page' href='/#projects' scroll={false}>
             <li className='ml-10 text-sm uppercase hove:border-b'>Projects</li>
           </Link>
-          <Link href='/#contact' scroll={false}>
+          <Link aria-label='Contact Page' href='/#contact' scroll={false}>
             <li className='ml-10 text-sm uppercase hove:border-b'>Contact</li>
           </Link>
         </ul>
@@ -72,24 +72,27 @@ const Navbar = () => {
         </div>
         <div className='py-4 flex flex-col'>
           <ul className='uppercase'>
-            <Link href='/#home' scroll={false}>
+            <Link aria-label='Home Page' href='/#home' scroll={false}>
               <li  onClick={()=> setNav(false)} className='py-4 text-sm'>
                 Home
               </li>
             </Link>
-            <Link href='/#about' scroll={false}>
+            <Link aria-label='About Page' href='/#about' scroll={false}>
               <li onClick={()=> setNav(false)} className='py-4 text-sm'>
                 About
               </li>
-            </Link><Link href='/#skills' scroll={false}>
+            </Link>
+            <Link aria-label='Skills Page' href='/#skills' scroll={false}>
               <li onClick={()=> setNav(false)} className='py-4 text-sm'>
                 Skills
               </li>
-            </Link><Link href='/#projects' scroll={false}>
+            </Link>
+            <Link aria-label='Projects Page' href='/#projects' scroll={false}>
               <li onClick={()=> setNav(false)} className='py-4 text-sm'>
                 Projects
               </li>
-            </Link><Link href='/#contact' scroll={false}>
+            </Link>
+            <Link aria-label='Contact Page' href='/#contact' scroll={false}>
               <li onClick={()=> setNav(false)} className='py-4 text-sm'>
                 Contact
               </li>
@@ -100,25 +103,25 @@ const Navbar = () => {
             <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
               
               <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in-duration'>
-              <Link  href="https://www.linkedin.com/in/punjabikaran/">
+              <Link aria-label='Linkedin Profile'  href="https://www.linkedin.com/in/punjabikaran/">
                 <AiOutlineLinkedin/>
               </Link>
               </div>
 
               <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in-duration'>
-              <Link href="https://github.com/Karan1223">
+              <Link aria-label='Github' href="https://github.com/Karan1223">
               <AiFillGithub/>
               </Link>
               </div>
 
               <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-105 ease-in-duration'>
-                <Link href="mailto:kpkaranpunjabi1223@gmail.com">
+                <Link aria-label='Mail' href="mailto:kpkaranpunjabi1223@gmail.com">
                 <AiOutlineMail/>
                 </Link>
               </div>
 
               <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-105 ease-in-duration'>
-                <Link href="https://www.instagram.com/karanpunjabi_/?next=%2F">
+                <Link aria-label='Instagram' href="https://www.instagram.com/karanpunjabi_/?next=%2F">
                 <AiOutlineInstagram/>
                 </Link>
                 </div>

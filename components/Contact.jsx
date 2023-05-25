@@ -97,25 +97,25 @@ const Contact = () => {
     <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
 
                 <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-105 ease-in-duration'>
-                <Link  href="https://www.linkedin.com/in/punjabikaran/">
+                <Link aria-label='Linkedin Profile' href="https://www.linkedin.com/in/punjabikaran/">
                   <AiOutlineLinkedin/>
                 </Link>
                 </div>
 
                 <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-105 ease-in-duration'>
-                <Link href="https://github.com/Karan1223">
+                <Link aria-label='Github' href="https://github.com/Karan1223">
                   <AiFillGithub/>
                 </Link>
                 </div>
 
                 <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-105 ease-in-duration'>
-                <Link href="mailto:kpkaranpunjabi1223@gmail.com">
+                <Link aria-label='Mail' href="mailto:kpkaranpunjabi1223@gmail.com">
                     <AiOutlineMail/>
                 </Link>
                 </div>
                
                 <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-105 ease-in-duration'>
-                <Link href="https://www.instagram.com/karanpunjabi_/?next=%2F">
+                <Link aria-label='Instagram' href="https://www.instagram.com/karanpunjabi_/?next=%2F">
                 <AiOutlineInstagram/>
                 </Link>
                 </div>
@@ -130,36 +130,36 @@ const Contact = () => {
                 <form ref={form} onSubmit={sendEmail}>
                     <div className='grid md:grid-cols-2 gap-4 w-full py-2'>
                         <div className='flex flex-col'>
-                            <label className='uppercase text-sm py-2'>Name</label>
-                            <input className='border-2 rounded-lg p-3 flex border-gray-300' type="text" name="name" />
+                            <label for='firstname' className='uppercase text-sm py-2'>Name</label>
+                            <input id='firstname' className='border-2 rounded-lg p-3 flex border-gray-300' type="text" name="name" />
                             {errors.name && <span className="text-red-500">{errors.name}</span>}
                         </div>
 
                         <div className='flex flex-col'>
-                            <label className='uppercase text-sm py-2'>Phone Number</label>
-                            <input className='border-2 rounded-lg p-3 flex border-gray-300' type="number" name="number"/>
+                            <label for='phonenumber' className='uppercase text-sm py-2'>Phone Number</label>
+                            <input id='phonenumber' className='border-2 rounded-lg p-3 flex border-gray-300' type="number" name="number"/>
                             {errors.phoneNumber && <span className="text-red-500">{errors.phoneNumber}</span>}
                         </div>
 
                     </div>
                     <div className='flex flex-col py-2'>
                         <div className='flex flex-col'>
-                            <label className='uppercase text-sm py-2'>Email</label>
-                            <input className='border-2 rounded-lg p-3 flex border-gray-300' type="email" name="email"/>
+                            <label for='email' className='uppercase text-sm py-2'>Email</label>
+                            <input id='email' className='border-2 rounded-lg p-3 flex border-gray-300' type="email" name="email"/>
                             {errors.email && <span className="text-red-500">{errors.email}</span>}
                         </div>
                     </div>
                     <div className='flex flex-col py-2'>
                         <div className='flex flex-col'>
-                            <label className='uppercase text-sm py-2'>Subject</label>
-                            <input className='border-2 rounded-lg p-3 flex border-gray-300' type="text" name="subject" />
+                            <label for='subject' className='uppercase text-sm py-2'>Subject</label>
+                            <input id='subject' className='border-2 rounded-lg p-3 flex border-gray-300' type="text" name="subject" />
                             {errors.subject && <span className="text-red-500">{errors.subject}</span>}
                         </div>
                     </div>
                     <div className='flex flex-col py-2'>
                         <div className='flex flex-col'>
-                            <label className='uppercase text-sm py-2'>Message</label>
-                            <textarea className='border-2 rounded-lg p-3 flex border-gray-300' rows='10' name="message"></textarea>
+                            <label for='message' className='uppercase text-sm py-2'>Message</label>
+                            <textarea id='message' className='border-2 rounded-lg p-3 flex border-gray-300' rows='10' name="message"></textarea>
                             {errors.message && <span className="text-red-500">{errors.message}</span>}
                         </div>
                     </div>
