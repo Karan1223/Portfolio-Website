@@ -130,13 +130,13 @@ const Contact = () => {
                 <form ref={form} onSubmit={sendEmail}>
                     <div className='grid md:grid-cols-2 gap-4 w-full py-2'>
                         <div className='flex flex-col'>
-                            <label for='firstname' className='uppercase text-sm py-2'>Name</label>
+                            <label htmlFor='firstname' className='uppercase text-sm py-2'>Name</label>
                             <input id='firstname' className='border-2 rounded-lg p-3 flex border-gray-300' type="text" name="name" />
                             {errors.name && <span className="text-red-500">{errors.name}</span>}
                         </div>
 
                         <div className='flex flex-col'>
-                            <label for='phonenumber' className='uppercase text-sm py-2'>Phone Number</label>
+                            <label htmlFor='phonenumber' className='uppercase text-sm py-2'>Phone Number</label>
                             <input id='phonenumber' className='border-2 rounded-lg p-3 flex border-gray-300' type="number" name="number"/>
                             {errors.phoneNumber && <span className="text-red-500">{errors.phoneNumber}</span>}
                         </div>
@@ -144,21 +144,21 @@ const Contact = () => {
                     </div>
                     <div className='flex flex-col py-2'>
                         <div className='flex flex-col'>
-                            <label for='email' className='uppercase text-sm py-2'>Email</label>
+                            <label htmlFor='email' className='uppercase text-sm py-2'>Email</label>
                             <input id='email' className='border-2 rounded-lg p-3 flex border-gray-300' type="email" name="email"/>
                             {errors.email && <span className="text-red-500">{errors.email}</span>}
                         </div>
                     </div>
                     <div className='flex flex-col py-2'>
                         <div className='flex flex-col'>
-                            <label for='subject' className='uppercase text-sm py-2'>Subject</label>
+                            <label htmlFor='subject' className='uppercase text-sm py-2'>Subject</label>
                             <input id='subject' className='border-2 rounded-lg p-3 flex border-gray-300' type="text" name="subject" />
                             {errors.subject && <span className="text-red-500">{errors.subject}</span>}
                         </div>
                     </div>
                     <div className='flex flex-col py-2'>
                         <div className='flex flex-col'>
-                            <label for='message' className='uppercase text-sm py-2'>Message</label>
+                            <label htmlFor='message' className='uppercase text-sm py-2'>Message</label>
                             <textarea id='message' className='border-2 rounded-lg p-3 flex border-gray-300' rows='10' name="message"></textarea>
                             {errors.message && <span className="text-red-500">{errors.message}</span>}
                         </div>
