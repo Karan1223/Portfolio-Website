@@ -11,6 +11,7 @@ const Contact = () => {
     const form = useRef();
     const [errors, setErrors] = useState({});
     const [success, setSuccess] = useState(false);
+    const [isPending, setIsPending] = useState(false);
 
   
 
@@ -60,6 +61,7 @@ const Contact = () => {
         emailjs.sendForm('service_yv9mvtl', 'template_nhhpe2f', form.current, 'XdyplZNkPAFc31NzF')
           .then((result) => {
             console.log(result.text);
+            setIsPending(false);
             setSuccess(true)
           }, (error) => {
             console.log(error.text);
@@ -163,7 +165,8 @@ const Contact = () => {
                             {errors.message && <span className="text-red-500">{errors.message}</span>}
                         </div>
                     </div>
-                    <button className='w-full p-4 text-gray-100 mt-4' name='btn'>Send Message</button>
+                    {!isPending && <button className='w-full p-4 text-gray-100 mt-4' name='btn'>Send Message</button>}
+                    {isPending && <button className='w-full p-4 text-gray-100 mt-4' name='btn' disabled>Sending Message</button>}
                     <br/>
                     <br/>
                     {success && <p className="text-green-700">Form submitted successfully.</p>}
