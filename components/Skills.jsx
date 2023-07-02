@@ -22,6 +22,8 @@ import MySql from '../public/assets/skills/mysql.png'
 import TS from '../public/assets/skills/ts.png'
 import SqlServer from '../public/assets/skills/sql.png'
 import JQuery from '../public/assets/skills/jquery.png'
+import Firebase from '../public/assets/skills/firebase.jpeg'
+import rstudio from '../public/assets/skills/rstudio.svg'
 
 
 const Skills = () => {
@@ -156,6 +158,17 @@ const Skills = () => {
                 <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                 <div className='grid grid-cols-2 gap-4 jusitfy-center items-center'>
                     <div className='m-auto'>
+                        <Image src={Firebase} width='64px' height='64px' alt="/"/>
+                    </div>
+                    <div className='flex flex-col items-center justify-center'>
+                        <h3>Firebase</h3>
+                    </div>
+                </div>
+                </div>
+
+                <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+                <div className='grid grid-cols-2 gap-4 jusitfy-center items-center'>
+                    <div className='m-auto'>
                         <Image src={JQuery} width='64px' height='64px' alt="/"/>
                     </div>
                     <div className='flex flex-col items-center justify-center'>
@@ -263,7 +276,18 @@ const Skills = () => {
                         <h3>Hive</h3>
                     </div>
                 </div>
-                </div>    
+                </div>  
+
+                 <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+                <div className='grid grid-cols-2 gap-4 jusitfy-center items-center'>
+                    <div className='m-auto'>
+                        <Image src={rstudio} width='64px' height='64px' alt="/"/>
+                    </div>
+                    <div className='flex flex-col items-center justify-center'>
+                        <h3>R Studio</h3>
+                    </div>
+                </div>
+                </div>  
                 
                 <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                 <div className='grid grid-cols-2 gap-4 jusitfy-center items-center'>
