@@ -12,6 +12,9 @@ import HMS from '../public/assets/Projects/HMS.png'
 import Product from '../public/assets/Projects/ProductRS.jpg'
 import ML from '../public/assets/Projects/ML.jpg'
 import ShopLenses from '../public/assets/Projects/ShopLenses.png'
+import HeartAttck from '../public/assets/Projects/HeartAttack.jpg'
+import Tasklist from '../public/assets/Projects/Tasklist.jpeg'
+import Netflix from '../public/assets/Projects/netflix.webp'
 
 
 const Projects = () => {
@@ -21,6 +24,20 @@ const Projects = () => {
             <p className='text-xl tracking-widest uppercase text-[#5651e5]'>Projects</p>
             <h2 className='py-4'>What I've Built</h2>
             <div className='grid md:grid-cols-2 gap-8'>
+
+
+            <ProjectItems 
+            title="Tasklist App." 
+            img={Tasklist} url="https://github.com/Karan1223/Tasklist-React"
+            description="React" 
+            />
+
+           <ProjectItems 
+            title="Netflix Clone." 
+            img={Netflix} url="https://github.com/Karan1223/Netflix-Clone"
+            description="MERN Stack, Firebase." 
+            />
+
             <ProjectItems 
             title="NodeJs App." 
             img={Node} url="https://silly-teal-elk.cyclic.app/api/profile/Step3data"
@@ -50,10 +67,16 @@ const Projects = () => {
 
             <ProjectItems 
             title="Higher Study prediction model." img={ML} 
-            url="https://github.com/Karan1223/ML-HighSchoolPrediction-Model"
+            url="https://github.com/Karan1223/HeartAttack-Prediction-Model-BigData"
             description="Python, Matplotlib, Seaborn, Pandas, Numpy, Scikit-Learn."
             />
             
+            <ProjectItems 
+            title="Heart Attack Prediction." img={HeartAttck} 
+            url="https://github.com/Karan1223/ML-HighSchoolPrediction-Model"
+            description="R Studio."
+            />
+
             <ProjectItems 
             title="Staff Management System." img={Java} url="https://github.com/Karan1223/JDBC-CRUD-Projects"
             description="Core Java, JDBC, Java Swing, Java Awt, Oracle RDBMS."    
