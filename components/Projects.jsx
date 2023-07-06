@@ -29,19 +29,19 @@ const Projects = () => {
             <ProjectItems 
             title="Tasklist App." 
             img={Tasklist} url="https://github.com/Karan1223/Tasklist-React"
-            description="React" 
+            description="React." 
             />
 
            <ProjectItems 
-            title="Netflix Clone." 
+            title="MovieFlix." 
             img={Netflix} url="https://github.com/Karan1223/Netflix-Clone"
-            description="MERN Stack, Firebase." 
+            description="MERN Stack, Firebase, Redux." 
             />
 
             <ProjectItems 
             title="NodeJs App." 
             img={Node} url="https://silly-teal-elk.cyclic.app/api/profile/Step3data"
-            description="NodeJS Express Mongo" 
+            description="NodeJS, Express, MongoDB" 
             />
             
 

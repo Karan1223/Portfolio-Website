@@ -20,10 +20,10 @@ const Main = () => {
                     Software Developer
                 </h2>
                 <p className='py-4 text-gray-600 max-w-[70%] m-auto text-justify'>
-                    As a <span className='text-[#bd7b3e]'> Software Developer</span>, I have around 3+ years of academic experience.
-                    My primary areas of expertise are in software development using Java Core, Java AWT, Java Swing, JDBC, Data
-                    Structures, Algorithms, MySQL, and Oracle PL/SQL, as well as <span className='text-[#ceae21]'>Full Stack Web Development</span> using React, Next.js, Node.js, MongoDB, Tailwind RESTful
-                    APIs, PHP, JSPs, Servlets, AJAX, JQuery, and manymore technologies.
+                As a <span className='text-[#bd7b3e]'> Software Developer</span>, I have gained substantial academic experience over the course of four years. 
+                My expertise encompasses a wide range of software development areas, including Java Core, Java AWT, Java Swing, JDBC, Data Structures, Algorithms, MySQL, and Oracle PL/SQL. 
+                Moreover, I possess comprehensive knowledge of <span className='text-[#ceae21]'>Full Stack Web Development</span> utilizing technologies such as React, Next.js, Node.js, MongoDB, Tailwind, RESTful APIs, PHP, JSPs, Servlets, AJAX, and JQuery, among others.
+                    
                 </p>
                 <button className='p-4 bg-gradient-to-r from-[#1e6cd1] to-[#a7b1db]'>
                 <a  href='./Karan-Punjabi.pdf' target='_blank'>
