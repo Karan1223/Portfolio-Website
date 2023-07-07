@@ -7,8 +7,8 @@ const About = () => {
     <div id='about' className='w-full md:h-screen p-2 flex items-center py-16'>
         <div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8'>
             <div className='col-sapn-2 text-justify'>
-                <p className='uppercase text-xl tracking-widest text-[#5651e5]'>About</p>
-                <h2 className='py-4 '>Who I Am</h2>
+                <p className='uppercase text-xl tracking-widest text-[#5b4e4e]'>About</p>
+                <h2 className='py-4'>Who I Am</h2>
                 <p className='py-2 text-gray-600'>
                     I have about 3+ years of academic experience as a Full Stack Software Developer with Web and Desktop Applications in Java, JavaScript, and C#. 
                     I have a bachelor's degree in science, and I'm currently enrolled at Humber College in Toronto to study information technology solutions.

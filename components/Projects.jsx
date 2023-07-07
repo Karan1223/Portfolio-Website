@@ -21,7 +21,7 @@ const Projects = () => {
   return (
     <div id='projects' className='w-full'>
         <div className='max-w-[1240px] mx-auto px-2 py-16'>
-            <p className='text-xl tracking-widest uppercase text-[#5651e5]'>Projects</p>
+            <p className='text-xl tracking-widest uppercase text-[#5b4e4e]'>Projects</p>
             <h2 className='py-4'>What I've Built</h2>
             <div className='grid md:grid-cols-2 gap-8'>
 
@@ -67,14 +67,14 @@ const Projects = () => {
 
             <ProjectItems 
             title="Higher Study prediction model." img={ML} 
-            url="https://github.com/Karan1223/HeartAttack-Prediction-Model-BigData"
+            url="https://github.com/Karan1223/ML-HighSchoolPrediction-Model"
             description="Python, Matplotlib, Seaborn, Pandas, Numpy, Scikit-Learn."
             />
-            
+           
             <ProjectItems 
             title="Heart Attack Prediction." img={HeartAttck} 
-            url="https://github.com/Karan1223/ML-HighSchoolPrediction-Model"
-            description="R Studio."
+            url="https://github.com/Karan1223/HeartAttack-Prediction-Model-BigData"
+            description="R Studio, GGPLOT, DPLYR."
             />
 
             <ProjectItems 

@@ -75,7 +75,7 @@ const Contact = () => {
   return (
     <div id='contact' className='w-full p-20 pl-[55px]'>
         <div className='max-w-[1240px] m-auto px-2 py-16'>
-            <p className='text-xl tracking-widest uppercase text-[#5651e5]'>Contact</p>
+            <p className='text-xl tracking-widest uppercase text-[#5b4e4e]'>Contact</p>
             <h2 className='py-4'>Get in touch.</h2>
             <div className='grid lg:grid-cols-5 gap-8'>
 {/* Left */}            
