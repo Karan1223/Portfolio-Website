@@ -29,12 +29,12 @@ const Projects = () => {
             <ProjectItems 
             title="Tasklist App." 
             img={Tasklist} url="https://github.com/Karan1223/Tasklist-React"
-            description="React." 
+            description="React, TypeScript." 
             />
 
            <ProjectItems 
             title="MovieFlix." 
-            img={Netflix} url="https://github.com/Karan1223/Netflix-Clone"
+            img={Netflix} url="https://moviieeflix.netlify.app/"
             description="MERN Stack, Firebase, Redux." 
             />
 
@@ -83,7 +83,7 @@ const Projects = () => {
             />
              
             <ProjectItems 
-            title="EzRecipe" img={EzRecipe} url="https://github.com/Karan1223/Ez-Recipe"
+            title="EzRezipe" img={EzRecipe} url="https://github.com/Karan1223/Ez-Recipe"
             description="SWIFT, Core Data. IOS Mobile App."   
             />
 

@@ -17,7 +17,6 @@ function Home()
                 <meta name="description" content="Portfolio Website for Karan"/>
                 <meta name="author" content="Karan Punjabi"/>
                 <link rel="icon" href="/kplogo.png"/>   
-          
             </Head>
         <Navbar/>
         <Main/>
