@@ -35,25 +35,26 @@ const Main = () => {
   
 
                 <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-105 ease-in-duration'>
-                <Link aria-label='Linkedin Profile'  href="https://www.linkedin.com/in/punjabikaran/">
+                <Link aria-label='Linkedin Profile' href="https://www.linkedin.com/in/punjabikaran/"
+                target='_blank'>
                   <AiOutlineLinkedin/>
                 </Link>
                 </div>
 
                 <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-105 ease-in-duration'>
-                <Link aria-label='Github' href="https://github.com/Karan1223">
+                <Link aria-label='Github' href="https://github.com/Karan1223" target='_blank'>
                   <AiFillGithub/>
                 </Link>
                 </div>
 
                 <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-105 ease-in-duration'>
-                <Link aria-label='Mail' href="mailto:kpkaranpunjabi1223@gmail.com">
+                <Link aria-label='Mail' href="mailto:kpkaranpunjabi1223@gmail.com" target='_blank'>
                 <AiOutlineMail/>
                 </Link>
                 </div>
 
                 <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-105 ease-in-duration'>
-                <Link aria-label='Instagram' href="https://www.instagram.com/karanpunjabi_/?next=%2F">
+                <Link aria-label='Instagram' href="https://www.instagram.com/karanpunjabi_/?next=%2F" target='_blank'>
                 <AiOutlineInstagram/>
                 </Link>
                 </div>
