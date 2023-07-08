@@ -15,6 +15,7 @@ import ShopLenses from '../public/assets/Projects/ShopLenses.png'
 import HeartAttck from '../public/assets/Projects/HeartAttack.jpg'
 import Tasklist from '../public/assets/Projects/Tasklist.jpeg'
 import Netflix from '../public/assets/Projects/netflix.webp'
+import ProjectDemo from './ProjectsDemo'
 
 
 const Projects = () => {
@@ -32,15 +33,17 @@ const Projects = () => {
             description="React, TypeScript." 
             />
 
-           <ProjectItems 
+           <ProjectDemo
             title="MovieFlix." 
-            img={Netflix} url="https://moviieeflix.netlify.app/"
+            img={Netflix} demo="https://moviieeflix.netlify.app/"
+            url="https://github.com/Karan1223/Netflix-Clone"
             description="MERN Stack, Firebase, Redux." 
             />
 
-            <ProjectItems 
+            <ProjectDemo 
             title="NodeJs App." 
-            img={Node} url="https://silly-teal-elk.cyclic.app/api/profile/Step3data"
+            img={Node} demo="https://silly-teal-elk.cyclic.app/api/profile/Step3data"
+            url="https://github.com/Karan1223/Node-Express-Mongo-Project"
             description="NodeJS, Express, MongoDB" 
             />
             
