@@ -26,7 +26,7 @@ const Main = () => {
                     
                 </p>
                 <button className='p-4 bg-gradient-to-r from-[#1e6cd1] to-[#a7b1db]'>
-                <a  href='./Karan-Punjabi.pdf' target='_blank'>
+                <a  href='./KaranPunjabi.pdf' target='_blank'>
                   Download Resume
                 </a>
                 </button><br/>
