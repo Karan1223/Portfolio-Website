@@ -6,6 +6,7 @@ import About from "../components/About";
 import Skills from "../components/Skills";
 import Projects from "../components/Projects";
 import Contact from "../components/Contact";
+import Experience from "../components/Experience";
 
 
 function Home()
@@ -21,6 +22,7 @@ function Home()
         <Navbar/>
         <Main/>
         <About/>
+        <Experience/>
         <Skills/>
         <Projects/>
         <Contact/>
