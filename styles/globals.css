@@ -1,13 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+/* ecfof3 */
 html{
     scroll-behavior: smooth;
 }
 @layer base{
     body{
-        @apply bg-[#ecf0f3] text-[#1f2937] tracking-wide
+        @apply bg-white text-[#1f2937] tracking-wide
    
     }
 
