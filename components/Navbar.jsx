@@ -40,6 +40,9 @@ const Navbar = () => {
           <Link aria-label='About Page' href='/#about' scroll={false}>
             <li className='ml-10 text-sm uppercase hove:border-b'>About</li>
           </Link>  
+          <Link aria-label='Experience Page' href='/#experience' scroll={false}>
+            <li className='ml-10 text-sm uppercase hove:border-b'>Experience</li>
+          </Link>  
           <Link aria-label='Skills Page' href='/#skills' scroll={false}>
             <li className='ml-10 text-sm uppercase hove:border-b'>Skills</li>
           </Link>  
@@ -81,6 +84,11 @@ const Navbar = () => {
             <Link aria-label='About Page' href='/#about' scroll={false}>
               <li onClick={()=> setNav(false)} className='py-4 text-sm'>
                 About
+              </li>
+            </Link>
+            <Link aria-label='Experience Page' href='/#experience' scroll={false}>
+              <li onClick={()=> setNav(false)} className='py-4 text-sm'>
+                Experience
               </li>
             </Link>
             <Link aria-label='Skills Page' href='/#skills' scroll={false}>

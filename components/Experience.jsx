@@ -2,7 +2,7 @@ import React from 'react'
 
 const Experience = () => {
   return (
-    <div id='about' className='w-full'>
+    <div id='experience' className='w-full'>
     <div className='max-w-[1240px] m-auto md:grid'>
         <div className='col-sapn-2 text-justify'>
             <p className='uppercase text-xl tracking-widest text-[#5b4e4e]'>Experience</p>
@@ -33,6 +33,7 @@ const Experience = () => {
             horizons but also nurtured a proactive attitude toward continuous learning. In reflection, my time 
             at BuyerFolio has equipped me with a holistic skill set, shaping me into a versatile developer 
             prepared for the evolving challenges of the industry.
+            At last we won prize for <span className='font-bold'>best project at Humber Capstone Expo 2023</span>.
             </p>
             </div>
         </div>
