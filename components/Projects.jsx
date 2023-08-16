@@ -41,10 +41,10 @@ const Projects = () => {
             />
 
             <ProjectDemo 
-            title="NodeJs App." 
+            title="ShipWreck API." 
             img={Node} demo="https://silly-teal-elk.cyclic.app/api/profile/Step3data"
             url="https://github.com/Karan1223/Node-Express-Mongo-Project"
-            description="NodeJS, Express, MongoDB" 
+            description="NodeJS, Express, MongoDB, RestAPI" 
             />
             
 
