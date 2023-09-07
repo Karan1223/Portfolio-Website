@@ -10,7 +10,10 @@ const Main = () => {
         <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center pt-9'>
             <div>
             <br/>
-                <p className='uppercase text-sm tracking-widest text-gray-600'>
+            <br/>
+           
+                <p className='uppercase text-sm tracking-widest text-gray-600 pt-10'>
+                
                     LET'S BUILD SOMETHING TOGETHER
                 </p>
                 <h1 className='py-4 text-gray-700'>
@@ -60,7 +63,8 @@ const Main = () => {
                 </div>
 
                 </div>
-            </div>
+                </div>
+            
         </div>
     </div>
   )

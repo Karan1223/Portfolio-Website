@@ -15,7 +15,7 @@ import Tasklist from '../public/assets/Projects/Tasklist.jpeg'
 import Netflix from '../public/assets/Projects/netflix.webp'
 import ProjectDemo from './ProjectsDemo'
 import BI from '../public/assets/Projects/BI.webp'
-
+import BDHS from '../public/assets/Projects/BDHS.jpeg'
 
 const Projects = () => {
   return (
@@ -64,28 +64,24 @@ const Projects = () => {
             description="HTML, CSS, PHP, MYSQL."    
             />
 
-            <ProjectItems 
-            title="Hospital Management System." img={HMS} url="https://github.com/Karan1223/Hospital-Management-System"
-            description="C#, .NET, Data Structures and Design Patterns."
+          <ProjectItems 
+            title="HighSchool Prediction Big Data." img={BDHS} 
+            url="https://github.com/Karan1223/HighSchool-Prediction-BigData"
+            description="HDFS, Hive, HBase, Zeeplin Notebook."
             />
 
-            <ProjectItems 
-            title="Product Review System." img={Product} url="https://github.com/Karan1223/Product-Review-System-PHP-MVC"
-            description="PHP, CodeIgniter 4, MVC, MySQL."
-            />
-
-            <ProjectItems 
-            title="Road-Safety-Trends-GTA." img={BI} 
-            url="https://github.com/Karan1223/Road-Safety-Trends-GTA"
-            description="Tableau."
-            />
-
-            <ProjectItems 
+          <ProjectItems 
             title="Enhanced RNN for Time-Series Prediction." img={Dl} 
             url="https://github.com/Karan1223/Enhanced-RNN-for-Time-Series-Prediction"
             description="Python, Jupyter, RNN, Pandas, Sklearn, Numpy, Torch."
             />
            
+            <ProjectItems 
+            title="Road-Safety-Trends-GTA." img={BI} 
+            url="https://github.com/Karan1223/Road-Safety-Trends-GTA"
+            description="Tableau."
+            />
+            
             <ProjectItems 
             title="Higher Study prediction model." img={ML} 
             url="https://github.com/Karan1223/ML-HighSchoolPrediction-Model"
@@ -102,6 +98,17 @@ const Projects = () => {
             title="Staff Management System." img={Java} url="https://github.com/Karan1223/JDBC-CRUD-Projects"
             description="Core Java, JDBC, Java Swing, Java Awt, Oracle RDBMS."    
             />
+
+          <ProjectItems 
+            title="Hospital Management System." img={HMS} url="https://github.com/Karan1223/Hospital-Management-System"
+            description="C#, .NET, Data Structures and Design Patterns."
+            />
+
+            <ProjectItems 
+            title="Product Review System." img={Product} url="https://github.com/Karan1223/Product-Review-System-PHP-MVC"
+            description="PHP, CodeIgniter 4, MVC, MySQL."
+            />
+
              
             <ProjectItems 
             title="EzRezipe" img={EzRecipe} url="https://github.com/Karan1223/Ez-Recipe"

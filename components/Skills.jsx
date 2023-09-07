@@ -24,13 +24,16 @@ import SqlServer from '../public/assets/skills/sql.png'
 import JQuery from '../public/assets/skills/jquery.png'
 import Firebase from '../public/assets/skills/firebase.jpeg'
 import rstudio from '../public/assets/skills/rstudio.svg'
-
+import Spring from '../public/assets/skills/spring.png'
 import Angular from '../public/assets/skills/angular.png'
 import Tableau from '../public/assets/skills/tableau.png'
 import Oracle from '../public/assets/skills/oracle.jpeg'
 import Neo4j from '../public/assets/skills/neo4j.png'
 import Redux from '../public/assets/skills/redux.png'
 import Jupyter from '../public/assets/skills/jupyter.png'
+import Gitlab from '../public/assets/skills/gitlab.png'
+import JDBC from '../public/assets/skills/jdbc.png'
+import Postgre from '../public/assets/skills/postgre.png'
 
 const Skills = () => {
   return (
@@ -49,6 +52,17 @@ const Skills = () => {
                             <h3>Java</h3>
                         </div>
                     </div>
+                </div>
+
+                <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+                <div className='grid grid-cols-2 gap-4 jusitfy-center items-center'>
+                    <div className='m-auto'>
+                        <Image  src={Spring} width='64px' height='64px' alt="/"/>
+                    </div>
+                    <div className='flex flex-col items-center justify-center'>
+                        <h3>Spring Boot</h3>
+                    </div>
+                </div>
                 </div>
 
                 <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
@@ -95,16 +109,6 @@ const Skills = () => {
                 </div>
                 </div>
 
-                <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
-                <div className='grid grid-cols-2 gap-4 jusitfy-center items-center'>
-                    <div className='m-auto'>
-                        <Image  src={TS} width='64px' height='64px' alt="/"/>
-                    </div>
-                    <div className='flex flex-col items-center justify-center'>
-                        <h3>TypeScript</h3>
-                    </div>
-                </div>
-                </div>
 
                 <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                 <div className='grid grid-cols-2 gap-4 jusitfy-center items-center'>
@@ -208,6 +212,17 @@ const Skills = () => {
                 <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                 <div className='grid grid-cols-2 gap-4 jusitfy-center items-center'>
                     <div className='m-auto'>
+                        <Image  src={TS} width='64px' height='64px' alt="/"/>
+                    </div>
+                    <div className='flex flex-col items-center justify-center'>
+                        <h3>TypeScript</h3>
+                    </div>
+                </div>
+                </div>
+
+                <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+                <div className='grid grid-cols-2 gap-4 jusitfy-center items-center'>
+                    <div className='m-auto'>
                         <Image  src={Php} width='64px' height='64px' alt="/"/>
                     </div>
                     <div className='flex flex-col items-center justify-center'>
@@ -241,6 +256,17 @@ const Skills = () => {
                 <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
                 <div className='grid grid-cols-2 gap-4 jusitfy-center items-center'>
                     <div className='m-auto'>
+                        <Image src={JDBC} width='55px' height='55px' alt="/"/>
+                    </div>
+                    <div className='flex flex-col items-center justify-center'>
+                        <h3>JDBC</h3>
+                    </div>
+                </div>
+                </div>
+
+                <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+                <div className='grid grid-cols-2 gap-4 jusitfy-center items-center'>
+                    <div className='m-auto'>
                         <Image src={Oracle} width='64px' height='64px' alt="/"/>
                     </div>
                     <div className='flex flex-col items-center justify-center'>
@@ -256,6 +282,17 @@ const Skills = () => {
                     </div>
                     <div className='flex flex-col items-center justify-center'>
                         <h3>MySql</h3>
+                    </div>
+                </div>
+                </div>
+
+                <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+                <div className='grid grid-cols-2 gap-4 jusitfy-center items-center'>
+                    <div className='m-auto'>
+                        <Image src={Postgre} width='64px' height='64px' alt="/"/>
+                    </div>
+                    <div className='flex flex-col items-center justify-center'>
+                        <h3>Postgre SQL</h3>
                     </div>
                 </div>
                 </div>
@@ -366,6 +403,17 @@ const Skills = () => {
                     </div>
                     <div className='flex flex-col items-center justify-center'>
                         <h3>Github</h3>
+                    </div>
+                </div>
+                </div>
+
+                <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+                <div className='grid grid-cols-2 gap-4 jusitfy-center items-center'>
+                    <div className='m-auto'>
+                        <Image src={Gitlab} width='64px' height='64px' alt="/"/>
+                    </div>
+                    <div className='flex flex-col items-center justify-center'>
+                        <h3>Gitlab</h3>
                     </div>
                 </div>
                 </div>
