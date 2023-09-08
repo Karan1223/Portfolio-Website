@@ -16,6 +16,8 @@ import Netflix from '../public/assets/Projects/netflix.webp'
 import ProjectDemo from './ProjectsDemo'
 import BI from '../public/assets/Projects/BI.webp'
 import BDHS from '../public/assets/Projects/BDHS.jpeg'
+import QuizApp from '../public/assets/Projects/Quiz-App.png'
+import ProjectLink from './ProjectsLink'
 
 const Projects = () => {
   return (
@@ -25,6 +27,12 @@ const Projects = () => {
             <h2 className='py-4'>What I've Built</h2>
             <div className='grid md:grid-cols-2 gap-8'>
 
+            <ProjectLink 
+            title="Quiz App." 
+            img={QuizApp} url="https://github.com/Karan1223/Quiz-App-Angular"
+            demo="https://github.com/Karan1223/Quiz-App-Spring"
+            description="Angular, Spring Boot, PostgreSQL, TypeScript, pgAdmin 4." 
+            />
 
             <ProjectItems 
             title="Tasklist App." 
