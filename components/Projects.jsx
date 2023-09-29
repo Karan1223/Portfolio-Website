@@ -17,6 +17,7 @@ import ProjectDemo from './ProjectsDemo'
 import BI from '../public/assets/Projects/BI.webp'
 import BDHS from '../public/assets/Projects/BDHS.jpeg'
 import QuizApp from '../public/assets/Projects/Quiz-App.png'
+import Spotify from '../public/assets/Projects/Spotify.jpeg'
 import ProjectLink from './ProjectsLink'
 
 const Projects = () => {
@@ -61,6 +62,11 @@ const Projects = () => {
             description="NodeJS, Express, MongoDB, RestAPI" 
             />
             
+            <ProjectItems 
+            title="GroveifyBondingThroughRhythms." img={Spotify} url="https://github.com/Karan1223/GroveifyBondingThroughRhythms"
+            description="Angular, NodeJS, Spotify-Web-Api"
+               
+            />
 
             <ProjectItems 
             title="Reddit Search." img={RedditS4} url="https://github.com/Karan1223/Reddit-Search-"
