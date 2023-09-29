@@ -4,6 +4,7 @@ import Image from 'next/image'
 import contact from '../public/assets/Profile/contact.jpg'
 import {AiOutlineLinkedin, AiFillGithub, AiOutlineMail, AiOutlineInstagram} from 'react-icons/ai'
 import {HiOutlineChevronDoubleUp} from 'react-icons/hi'
+import {SiLeetcode} from 'react-icons/si'
 import Link from 'next/link'
 
 const Contact = () => {
@@ -119,6 +120,12 @@ const Contact = () => {
                 <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-105 ease-in-duration'>
                 <Link aria-label='Instagram' href="https://www.instagram.com/karanpunjabi_/?next=%2F" target='_blank'>
                 <AiOutlineInstagram/>
+                </Link>
+                </div>
+
+                <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-105 ease-in-duration'>
+                <Link aria-label='Leet Code' href="https://leetcode.com/Karanpunjabi/" target='_blank'>
+                <SiLeetcode/>
                 </Link>
                 </div>
              </div>

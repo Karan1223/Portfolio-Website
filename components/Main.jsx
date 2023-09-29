@@ -2,6 +2,7 @@ import Link from 'next/link'
 import React from 'react'
 
 import {AiOutlineLinkedin, AiFillGithub, AiOutlineMail, AiOutlineInstagram} from 'react-icons/ai'
+import {SiLeetcode} from 'react-icons/si'
 
 const Main = () => {
   return (
@@ -59,6 +60,12 @@ const Main = () => {
                 <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-105 ease-in-duration'>
                 <Link aria-label='Instagram' href="https://www.instagram.com/karanpunjabi_/?next=%2F" target='_blank'>
                 <AiOutlineInstagram/>
+                </Link>
+                </div>
+
+                <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-105 ease-in-duration'>
+                <Link aria-label='Leet Code' href="https://leetcode.com/Karanpunjabi/" target='_blank'>
+                <SiLeetcode/>
                 </Link>
                 </div>
 
