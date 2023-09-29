@@ -34,6 +34,7 @@ import Jupyter from '../public/assets/skills/jupyter.png'
 import Gitlab from '../public/assets/skills/gitlab.png'
 import JDBC from '../public/assets/skills/jdbc.png'
 import Postgre from '../public/assets/skills/postgre.png'
+import Handlebar from '../public/assets/skills/handlebars.png'
 
 const Skills = () => {
   return (
@@ -227,6 +228,17 @@ const Skills = () => {
                     </div>
                     <div className='flex flex-col items-center justify-center'>
                         <h3>Php</h3>
+                    </div>
+                </div>
+                </div>
+
+                <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+                <div className='grid grid-cols-2 gap-4 jusitfy-center items-center'>
+                    <div className='m-auto'>
+                        <Image  src={Handlebar} width='64px' height='64px' alt="/"/>
+                    </div>
+                    <div className='flex flex-col items-center justify-center'>
+                        <h3>Handlebar</h3>
                     </div>
                 </div>
                 </div>
